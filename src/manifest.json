@@ -1,0 +1,22 @@
+{
+  "name": "1-Click GitHub Repo Link",
+  "short_name": "GH Repo Link",
+  "description": "Bringing back the 1-Click repository link copy feature to GitHub. Displays the repository link next to the drop down, where it hides nowadays.",
+  "version": "1.1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*/*"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}

@@ -1,4 +1,4 @@
-# Chrome 1-Click GitHub Link Extension
+# 1-Click GitHub Link Chrome Extension
 
 <img width="100%" height="auto" src="screenshot.png" />
 
